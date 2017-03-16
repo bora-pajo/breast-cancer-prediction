@@ -11,6 +11,10 @@ First, it examines the data looking for patterns of correlations among variables
 
 ""work in progress""
 
+### Graphs
+
+Some examples from bokeh and lightning as well as matplolib plots.
+
 # License
 
 This dataset was taken from UCI repository
