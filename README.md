@@ -9,7 +9,6 @@ This project tests various classifiers (logistic regression, SVM, decision trees
 
 First, it examines the data looking for patterns of correlations among variables. Then it runs various classifiers and compare them. Once a number of 2-3 classifiers is identified as most accurate, the model is fine tuned again. Then, we can see which model predicts data with the highest accuracy.  
 
-""work in progress""
 
 ### Graphs
 
