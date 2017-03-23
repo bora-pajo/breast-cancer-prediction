@@ -1,6 +1,11 @@
 # Predicting malignant versus benign breast cancer cases
 Predicting the probability that a diagnosed breast cancer case is malignant or benign based on Wisconsin dataset from UCI repository. 
 
+#### Files in this repository
+Many files in the respository are examples and things to be saved as the work progresses. Those are names examples_01 and so on. 
+The actual best and cleanest file is called breast_cancer_clean.ipynb 
+
+
 ## Libraries used
 numpy, pandas, matplotlib.pyplot, sklearn.linear_model, sklearn.pipeline, sklearn.preprocessing, sklearn.neighbors, sklearn.naive_bayes, scipy
 
