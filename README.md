@@ -18,16 +18,17 @@ First, it examines the data looking for patterns of correlations among variables
 ### Graphs
 Some examples from bokeh and lightning as well as matplolib plots.
 
-### Classifiers used to predict the breast cancer
-|**Type of Classifiers**| **Training Set Size** | Training Time | Prediction Time | F1 Score (train) | **F1 score (test)** |
-|----------------------:|:--------------------: |:-------------:|:---------------:|:----------------:|:-------------------:|
-| K-nearest neighbor    |         100           |     .0018     |      .0019      |     .8857        |         .8588       |
-|                       |                       |               |                 |                  |                     |
+### Classifiers used to predict the breast cancer for a training size = 300 
 
-
-Type of Classifiers | Training Size | Training Time | Prediction Time| F1 score (training set) | **F1 Score (testing set)**
-:---:|:---:|:---:|:---:|:---:|:---:
-**K-nearest neighbor** | 100 | .0018 | .0019 | .8857 | .8588 
+Type of Classifiers | Training Time | Prediction Time| F1 score (training set) | **F1 Score (testing set)**
+:---:|:---:|:---:|:---:|:---:
+**K-nearest neighbor** | .0012 | .0022 | .9264 | .9081
+**Decision Trees** | .0033 | .0002 | 1.000 | .9239
+**SVC** | .0051 |.0029 | 1.000 |.0000
+**Naive Bayes** |.0006 | .0003 |.9058 | .9341
+**Random Forest** | .0381 | .0064 | 1.000 | .9101
+**AdaBoost** | .1866 | .0055 | 1.000 | .9451
+**QDA** |.0013 | .0005 |
 
 
 
