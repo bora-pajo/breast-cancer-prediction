@@ -28,7 +28,10 @@ Type of Classifiers | Training Time | Prediction Time| F1 score (training set) |
 **Naive Bayes** |.0006 | .0003 |.9058 | .9341
 **Random Forest** | .0381 | .0064 | 1.000 | .9101
 **AdaBoost** | .1866 | .0055 | 1.000 | .9451
-**QDA** |.0013 | .0005 |
+**QDA** |.0013 | .0005 | .9528 | .9688
+**MLP** |.0084 | .0005 | .6648 | .6267
+
+
 
 
 
