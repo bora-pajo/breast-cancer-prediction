@@ -21,8 +21,14 @@ Some examples from bokeh and lightning as well as matplolib plots.
 ### Classifiers used to predict the breast cancer
 |**Type of Classifiers**| **Training Set Size** | Training Time | Prediction Time | F1 Score (train) | **F1 score (test)** |
 |----------------------:|:--------------------: |:-------------:|:---------------:|:----------------:|:-------------------:|
+| K-nearest neighbor    |         100           |     .0018     |      .0019      |     .8857        |         .8588       |
 |                       |                       |               |                 |                  |                     |
-|                       |                       |               |                 |                  |                     |
+
+
+Type of Classifiers | Training Size | Training Time | Prediction Time| F1 score (training set) | **F1 Score (testing set)**
+:---:|:---:|:---:|:---:|:---:|:---:
+**K-nearest neighbor** | 100 | .0018 | .0019 | .8857 | .8588 
+
 
 
 ### License
