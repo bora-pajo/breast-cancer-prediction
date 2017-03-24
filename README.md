@@ -3,11 +3,38 @@ Predicting the probability that a diagnosed breast cancer case is malignant or b
 
 #### Files in this repository
 Many files in the respository are examples and things to be saved as the work progresses. Those are names examples_01 and so on. 
-The actual best and cleanest file is called breast_cancer_clean.ipynb 
-
+The file where you can find all the coding for different classifiers is called _breast_cancer_clean.ipynb_ 
 
 ### Libraries used
-numpy, pandas, matplotlib.pyplot, sklearn.linear_model, sklearn.pipeline, sklearn.preprocessing, sklearn.neighbors, sklearn.naive_bayes, scipy
+```python
+import numpy as np #for linear algebra
+import pandas as pd #for chopping, processing
+import csv #for opening csv files
+%matplotlib inline 
+import matplotlib.pyplot as plt #for plotting the graphs
+from scipy import stats #for statistical info
+from time import time
+
+from sklearn import tree
+from sklearn.model_selection import train_test_split # to split the data in train and test
+from sklearn.model_selection import KFold # for cross validation
+from sklearn.grid_search import GridSearchCV  # for tuning parameters
+from sklearn import metrics  # for checking the accuracy 
+
+#Classifiers 
+
+from sklearn import svm #for Support Vector Machines
+from sklearn.svm import SVC # for support vector classifier
+from sklearn.neighbors import NearestNeighbors #for nearest neighbor classifier
+from sklearn.neighbors import KNeighborsClassifier # for K neighbor classifier
+from sklearn.tree import DecisionTreeClassifier #for decision tree classifier
+from sklearn.naive_bayes import GaussianNB  #for naive bayes classifier
+from sklearn.ensemble import RandomForestClassifier #for Random Forest
+from sklearn.ensemble import AdaBoostClassifier # for Ada Boost
+from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis # for Quadratic Discriminant Analysis
+from sklearn.neural_network import MLPClassifier # for multi layer perceptron classifier
+```
+
 
 ### Uses
 This project tests various classifiers (logistic regression, SVM, decision trees, random forest, and others) to find the classifier that predicts the testing data with the best possible accuracy at the shortest time possible.  
