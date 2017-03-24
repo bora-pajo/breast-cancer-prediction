@@ -19,10 +19,10 @@ First, it examines the data looking for patterns of correlations among variables
 Some examples from bokeh and lightning as well as matplolib plots.
 
 ### Classifiers used to predict the breast cancer
-| **Training Set Size** | Training Time | Prediction Time | F1 Score (train) | **F1 score (test)** |
-| --------------------: |:-------------:|:---------------:|:----------------:|:-------------------:|
-|                       |               |                 |                  |                     |
-|                       |               |                 |                  |                     |
+|**Type of Classifiers**| **Training Set Size** | Training Time | Prediction Time | F1 Score (train) | **F1 score (test)** |
+|----------------------:|:--------------------: |:-------------:|:---------------:|:----------------:|:-------------------:|
+|                       |                       |               |                 |                  |                     |
+|                       |                       |               |                 |                  |                     |
 
 
 ### License
