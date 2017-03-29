@@ -59,7 +59,8 @@ Type of Classifiers | Training Time | Prediction Time| F1 score (training set) |
 **MLP** |.0084 | .0005 | .6648 | .6267
 
 
-
+_The F-1 score measures the accuracy of the prediction. The closer it is to a value of 1, the better the prediction is._
+QDA seems to work perfectly in this case compared to other forms of classifiers and it is also quite fast to train the data.
 
 
 ### License
