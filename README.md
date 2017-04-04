@@ -66,3 +66,6 @@ QDA seems to work perfectly in this case compared to other forms of classifiers 
 ### License
 
 This dataset was taken from UCI repository
+
+
+
