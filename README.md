@@ -62,6 +62,20 @@ Type of Classifiers | Training Time | Prediction Time| F1 score (training set) |
 _The F-1 score measures the accuracy of the prediction. The closer it is to a value of 1, the better the prediction is._
 QDA seems to work perfectly in this case compared to other forms of classifiers and it is also quite fast to train the data.
 
+A second round of classifiers with an increase training size of 400 was attempted again.  Results are shown below:
+
+### Classifiers used to predict the breast cancer for a training size = 400 
+
+Type of Classifiers | Training Time | Prediction Time| F1 score (training set) | **F1 Score (testing set)**
+:---:|:---:|:---:|:---:|:---:
+**K-nearest neighbor** | 0.0006 | 0.0029 | 0.9290 | 0.9038
+**Decision Trees** | 0.0049 | 0.0003 | 1.000 | 0.9074
+**SVC** | 0.0110 |0.0068 | 1.000 |0.0000
+**Naive Bayes** |0.0007 | 0.0003 |0.9164 |0.9541
+**Random Forest** | 0.0403 | 0.0058 | 0.9936 | 0.9358
+**AdaBoost** | 0.1767 | 0.0057 | 1.000 | 0.9541
+**QDA** |0.0013 | 0.0005 | 0.9585 | 0.9381
+**MLP** |0.0102 | 0.0005 | 0.5663| 0.4843
 
 ### License
 
