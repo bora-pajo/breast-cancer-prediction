@@ -68,14 +68,14 @@ A second round of classifiers with an increase training size of 400 was attempte
 
 Type of Classifiers | Training Time | Prediction Time| F1 score (training set) | **F1 Score (testing set)**
 :---:|:---:|:---:|:---:|:---:
-**K-nearest neighbor** | 0.0006 | 0.0029 | 0.9290 | 0.9038
-**Decision Trees** | 0.0049 | 0.0003 | 1.000 | 0.9074
-**SVC** | 0.0110 |0.0068 | 1.000 |0.0000
-**Naive Bayes** |0.0007 | 0.0003 |0.9164 |0.9541
-**Random Forest** | 0.0403 | 0.0058 | 0.9936 | 0.9358
-**AdaBoost** | 0.1767 | 0.0057 | 1.000 | 0.9541
-**QDA** |0.0013 | 0.0005 | 0.9585 | 0.9381
-**MLP** |0.0102 | 0.0005 | 0.5663| 0.4843
+**K-nearest neighbor** | .0006 | .0029 | .9290 | .9038
+**Decision Trees** | .0049 | .0003 | 1.000 | .9074
+**SVC** | .0110 |.0068 | 1.000 |.0000
+**Naive Bayes** |.0007 | .0003 |.9164 |.9541
+**Random Forest** | .0403 | .0058 | .9936 | .9358
+**AdaBoost** | .1767 | .0057 | 1.000 | .9541
+**QDA** |.0013 | .0005 | .9585 | .9381
+**MLP** |.0102 | .0005 | .5663| .4843
 
 ### License
 
