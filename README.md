@@ -77,6 +77,7 @@ Type of Classifiers | Training Time | Prediction Time| F1 score (training set) |
 **QDA** |.0013 | .0005 | .9585 | .9381
 **MLP** |.0102 | .0005 | .5663| .4843
 
+ROC information added for the three best classifiers, Naive Bayes, QDA, and AdaBoost
 ### License
 
 This dataset was taken from UCI repository
