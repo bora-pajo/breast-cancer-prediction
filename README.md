@@ -52,14 +52,29 @@ from sklearn.neural_network import MLPClassifier # for multi layer perceptron cl
 ```
 
 
-### Uses
-This project tests various classifiers (logistic regression, SVM, decision trees, random forest, and others) to find the classifier that predicts the testing data with the best possible accuracy at the shortest time possible.  
+#### Dataset and Inputs
+The characteristics of the cell nuclei have been captured in the images and a classification methods which uses linear programming to construct a decision line. The dataset is published by Kaggle and taken from the University of California Irvine (UCI) machine learning repository.  The data is taken from the Breast Cancer Wisconsin Center. It includes ten (10) attributes taken from each cell nucleus as well as ID and the diagnosis (M=malignant, B=benign).  The dataset has 570 cases and 31 variables.   
 
-First, it examines the data looking for patterns of correlations among variables. Then it runs various classifiers and compare them. Once a number of 2-3 classifiers is identified as most accurate, the model is fine tuned again. Then, we can see which model predicts data with the highest accuracy.  
+#### Evaluation metric
+
+F1 score is a measure of accuracy or the ratio of the data that was accurately predicted. The closer the F1-score is to a value of 1, the best the prediction is, and the closer to a value of 0 it is, the worse the prediction. F1-score considers the true positives and the true negatives, and is best used when comparing various classifiers as I am proposing to do in this dataset.  From the literature, I reached the conclusion that F1-score is the best evaluation metric to be used for this type of classification problem.  
+•	The formula for the F1 score from the sklearn documentation is F1 = 2* (precision * recall) / (precision + recall). 
+•	Precision is a measure for result relevancy (according to sklearn documentation). It is often referred to as specificity and shows the number of cases that are relevant.  For example, in this particular dataset the number of cases that are identified as malignant would be very relevant. The formula for precision is: P = Tp/(Tp+Fp) where Tp are the true positives (the number of cases that were identified correctly as true (in this case these will be the malignant cases), and Fp are false positives (or the number of cases that are not malignant but are incorrectly identified as such). 
+•	Recall on the other hand is considered a measure of sensitivity and is measured as the number of True positives over the number of True positives plus the False negatives. R = Tp/(Tp+Fn)
+•	True positives are the correctly identified cases as 1 or malignant in our case
+•	True negatives are the correctly identified cases as 0 or benign in our case
+•	False positives are the cases that are identified as positive (1 or malignant in this case) but are in fact negative (0 or benign) 
+•	False negatives are the cases that are identified as negative (0 or benign in this case) and are in fact positive (1 or malignant). These are the most dangerous in this dataset. 
+•	Receiver operating characteristics (ROC) is another measurement metric used in this project.  It is a measurement of the classifier quality based on the true positives and the true negatives. ROC measured the proportion between true positives and true negatives.
+•	Area under the curve (AUC) is the last measurement metric used in this project.  It basically shows how well the classifier is performing.  If AUC is closer to a value of 1, the classifier is doing pretty well. If AUC is closer to 0 it is not doing a good job.  
 
 
 ### Graphs
-Some examples from bokeh and lightning as well as matplolib plots.
+Some examples from bokeh, matplolib plots, prettyplots, and ggplot for python
+
+#### Implementation
+First, the dataset was split into training and testing sets randomly. Training set included 400 cases and testing set included 169 cases. The rationale for this division was to see how many cases were the optimal number for training the data with each different classifier and how long it took in each case.  To implement different classifiers, I used training sets of 100, 200, 300, and 400 and got the results of training time, F-score for training, predicting time for the test data and the F-score for the testing set based on each case. The classifiers utilized were: 1) K-nearest neighbor, 2) Decision trees, 3) SVC, 4) Naïve Bayes, 5) Random Forest, 6) AdaBoost, 7) QDA, and 8) MLP. I ran these classifiers two times: 
+
 
 ### Classifiers used to predict the breast cancer for a training size = 300 
 
