@@ -108,6 +108,10 @@ Type of Classifiers | Training Time | Prediction Time| F1 score (training set) |
 **QDA** |.0013 | .0005 | .9585 | .9381
 **MLP** |.0102 | .0005 | .5663| .4843
 
+
+#### Improvements
+I think there are possible improvements to be done to the other classifiers that were used to predict this data.  Because they did not perform as great as the first three, I dismissed them and continued improving the ones that predicted the best from the very beginning.  This is a common approach humans take on many things, but it is possible to modify the other classifiers that did not perform well initially. Tuning them, or removing highly correlated variables (especially for SVC), could have improved these other classifiers significantly.  
+
 ROC information added for the three best classifiers, Naive Bayes, QDA, and AdaBoost
 ### License
 
