@@ -9,6 +9,18 @@ According to the Centers for Disease Control and Prevention (CDC) breast cancer 
 Many files in the respository are examples and things to be saved as the work progresses. Those are names examples_01 and so on. 
 The file where you can find all the coding for different classifiers is called _breast_cancer_clean.ipynb_ 
 
+##### Problem Statement
+This project focuses in investigating the probability of predicting the type of breast cancer (malignant or benign) from the given characteristics of breast mass computed from digitized images.  The cases provided, are cases diagnosed with some type of tumor, but only some of them (approximately 37%) are malignant.  This project will examine the data available and attempt to predict the possibility that a breast cancer diagnosis is malignant or benign based on the attributes collected from the breast mass. To achieve this goal, the following steps are identified:
+•	Download the breast cancer images data from UCI repository
+•	Familiarize with the data by looking at its shape, the relations between variables, their possible correlations, and other attributes of the dataset. 
+•	Preprocess data if needed
+•	Split the data into testing and training samples
+•	Employ various classifiers (K-neighbors, Decision trees, SVC, QDA, AdaBoost, Naïve Bayes, Random Forest, and MLP classifier) to predict the data with different sets of training samples (100, 200, 300, and 400). 
+•	Once the best predicting model is identified, will reduce the training set in size to see what is the limit for this classifier to best predict these data.
+•	Compare the best identified classifier with evaluation metric stated at the beginning of the project.
+•	Write conclusions. 
+
+
 ### Libraries used
 ```python
 import numpy as np #for linear algebra
