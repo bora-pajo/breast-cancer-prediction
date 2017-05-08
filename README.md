@@ -1,16 +1,16 @@
 ### Predicting malignant versus benign breast cancer cases
 Predicting the probability that a diagnosed breast cancer case is malignant or benign based on Wisconsin dataset from UCI repository. 
 
-#### Project Overview
+### Project Overview
 According to the Centers for Disease Control and Prevention (CDC) breast cancer is the most common type of cancer for women regardless of race and ethnicity (CDC, 2016). Around 220,000 women are diagnosed with breast cancer each year in the United States (CDC, 2016). Although we may not be aware of all the factors contributing in developing breast cancer, certain attributes such as family history, age, obesity, alcohol and tobacco use have been identified from research studies on this topic (DeSantis, Ma, Bryan, & Jemal, 2014). Breast images procedures such as mammography have been found to be quite effective in early identification cases of breast cancer (Ball, 2012).  When breast images procedures are not utilized, patients can find out late about their diagnosis to be able to treat it.  Similar work on attempting to find the best way to predict the type of cancer based on images of mammograms has identified Support Vector Machine as the best predictor after tuning parameters.  
  
  
 
-##### Files in this repository
+#### Files in this repository
 Many files in the respository are examples and things to be saved as the work progresses. Those are names examples_01 and so on. 
 The file where you can find all the coding for different classifiers is called _breast_cancer_clean.ipynb_ 
 
-###### Problem Statement
+#### Problem Statement
 This project focuses in investigating the probability of predicting the type of breast cancer (malignant or benign) from the given characteristics of breast mass computed from digitized images.  The cases provided, are cases diagnosed with some type of tumor, but only some of them (approximately 37%) are malignant.  This project will examine the data available and attempt to predict the possibility that a breast cancer diagnosis is malignant or benign based on the attributes collected from the breast mass. To achieve this goal, the following steps are identified:
 •	Download the breast cancer images data from UCI repository
 •	Familiarize with the data by looking at its shape, the relations between variables, their possible correlations, and other attributes of the dataset. 
